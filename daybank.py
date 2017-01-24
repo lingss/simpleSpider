@@ -5,7 +5,7 @@ from lxml import html
 nowmonth = time.strftime('%Y%m',time.localtime(time.time()))
 conn = pymysql.connect(host='localhost',
 			    user='root',
-			    password='Aas:L2@$@!kdfjW',
+			    password='',
 			    db='test',
 			    charset='utf8mb4',
 			    cursorclass=pymysql.cursors.DictCursor,)
